@@ -1,0 +1,23 @@
+{
+  "itemId" : "_r_v1QJAHEe6a__awYeGrfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_uovl4JAJEe6a__awYeGrfA",
+    "parameterList" : [ {
+      "id" : "_upWp4ZAJEe6a__awYeGrfA",
+      "name" : "TheAvengers_File"
+    }, {
+      "id" : "_upWp4pAJEe6a__awYeGrfA",
+      "name" : "TheAvengers_Encoding"
+    }, {
+      "id" : "_upWp45AJEe6a__awYeGrfA",
+      "name" : "TheAvengers_RowSeparator"
+    }, {
+      "id" : "_upWp5JAJEe6a__awYeGrfA",
+      "name" : "TheAvengers_FieldSeparator"
+    }, {
+      "id" : "_upWp5ZAJEe6a__awYeGrfA",
+      "name" : "TheAvengers_Header"
+    } ]
+  } ]
+}

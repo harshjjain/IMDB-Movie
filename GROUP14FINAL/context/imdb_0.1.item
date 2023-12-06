@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_72wawI_GEe62yM1cY-rR4Q">
+    <contextParameter comment="" name="imdb_Server" prompt="imdb_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_72wawY_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Login" prompt="imdb_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_72wawo_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Database" prompt="imdb_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="imdb" xmi:id="_72waw4_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Password" prompt="imdb_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:so3bKcXDwww5yLUCiVE4IbhXYPPCo6rOB0NckRNMVxW4TUL1adU=" xmi:id="_72waxI_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Port" prompt="imdb_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_72waxY_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_AdditionalParams" prompt="imdb_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_72waxo_GEe62yM1cY-rR4Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Development" xmi:id="_72wax4_GEe62yM1cY-rR4Q">
+    <contextParameter comment="" name="imdb_Server" prompt="imdb_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_72wayI_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Login" prompt="imdb_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_72wayY_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Database" prompt="imdb_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="imdb" xmi:id="_72wayo_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Password" prompt="imdb_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:9kjZcoQ+YkORVPmpzqo1MtuGh9J2d9rEutunBdXIiHRv7wozlEM=" xmi:id="_72way4_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Port" prompt="imdb_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_72wazI_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_AdditionalParams" prompt="imdb_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_72wazY_GEe62yM1cY-rR4Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Production" xmi:id="_72wazo_GEe62yM1cY-rR4Q">
+    <contextParameter comment="" name="imdb_Server" prompt="imdb_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_72waz4_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Login" prompt="imdb_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_72wa0I_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Database" prompt="imdb_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="imdb" xmi:id="_72wa0Y_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Password" prompt="imdb_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:HG+LLtioCSAcnM3RWMXEI6W/uB0YZQsrf9hqy8T+LM0ktT6WbJo=" xmi:id="_72wa0o_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Port" prompt="imdb_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_72wa04_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_AdditionalParams" prompt="imdb_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_72wa1I_GEe62yM1cY-rR4Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_72wa1Y_GEe62yM1cY-rR4Q">
+    <contextParameter comment="" name="imdb_Server" prompt="imdb_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_72wa1o_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Login" prompt="imdb_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_72wa14_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Database" prompt="imdb_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="imdb" xmi:id="_72wa2I_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Password" prompt="imdb_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:p/LebFAY6BKuRAAV3uiVJ8XrDy+BPHM0wS5td0Wr/c80JutCTl8=" xmi:id="_72wa2Y_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_Port" prompt="imdb_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_72wa2o_GEe62yM1cY-rR4Q"/>
+    <contextParameter comment="" name="imdb_AdditionalParams" prompt="imdb_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_72wa24_GEe62yM1cY-rR4Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e8b10d6b-c292-4b71-8615-39cf7a95db1a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UI1aDo0oHWaZ+6fXPtUoD0zgawkSrNlC65si/lTXnA+9Qr6N/HNItqCjl+v7Du1HdbCjiZ0+crhQ&#13;
+EI6vTjf42g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_09f10c6f-d8e8-4fe3-bf3d-0fb969cb97e3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ICAdRSfSBby1brnLdkm/uDUaFnwC9hQFxZKgZRCPIvV2+IEOSFsJ0g4fmrktZ6fLDn37i3Y/kXdF&#13;
+fi1pgdskJQ==</DigestValue></Reference></SignedInfo><SignatureValue>Hudjx4jR27aQU0Bw96azpaoPSvumP82Z4p174v4+LbIM+drWUegdfkmDoT1ezOc4uXn9OpJv6ijN&#13;
+knoMCHmzP5D2lkJvYj4hCkaxZT6nGFwvVMy0WeCCZcbQ8P55ROu9AbJCexSDAr9V3C08uNZkcXN9&#13;
+j9peTHAE56eUdlWqLztFOUIE/qahJZcL8u4LeeBtVXPAj2Bpb6cRdyjqbTaq0A/pbMKGQbBrp58v&#13;
+A630gEb38woR5PgWSfhfSE6Bu8snOWR25P6jlb1QoyyUTDhLK9XKDZxhq2EvQ8X2cSwoD5Cjileg&#13;
+RQjyz5usBZUVX/IpOc47FlgeIu3hFbZq7vp+XQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_09f10c6f-d8e8-4fe3-bf3d-0fb969cb97e3" Target="#_e8b10d6b-c292-4b71-8615-39cf7a95db1a"><Timestamp>2023-11-30 21:25:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

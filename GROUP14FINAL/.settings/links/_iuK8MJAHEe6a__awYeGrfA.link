@@ -1,0 +1,23 @@
+{
+  "itemId" : "_iuK8MJAHEe6a__awYeGrfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_p4OdMJAJEe6a__awYeGrfA",
+    "parameterList" : [ {
+      "id" : "_p4fi8ZAJEe6a__awYeGrfA",
+      "name" : "Starwars_File"
+    }, {
+      "id" : "_p4fi8pAJEe6a__awYeGrfA",
+      "name" : "Starwars_Encoding"
+    }, {
+      "id" : "_p4fi85AJEe6a__awYeGrfA",
+      "name" : "Starwars_RowSeparator"
+    }, {
+      "id" : "_p4fi9JAJEe6a__awYeGrfA",
+      "name" : "Starwars_FieldSeparator"
+    }, {
+      "id" : "_p4fi9ZAJEe6a__awYeGrfA",
+      "name" : "Starwars_Header"
+    } ]
+  } ]
+}

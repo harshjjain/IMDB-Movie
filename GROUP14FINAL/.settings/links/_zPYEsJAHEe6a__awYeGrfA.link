@@ -1,0 +1,23 @@
+{
+  "itemId" : "_zPYEsJAHEe6a__awYeGrfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_xSIC8JAJEe6a__awYeGrfA",
+    "parameterList" : [ {
+      "id" : "_xSq1gZAJEe6a__awYeGrfA",
+      "name" : "Titanic_File"
+    }, {
+      "id" : "_xSq1gpAJEe6a__awYeGrfA",
+      "name" : "Titanic_Encoding"
+    }, {
+      "id" : "_xSq1g5AJEe6a__awYeGrfA",
+      "name" : "Titanic_RowSeparator"
+    }, {
+      "id" : "_xSq1hJAJEe6a__awYeGrfA",
+      "name" : "Titanic_FieldSeparator"
+    }, {
+      "id" : "_xSq1hZAJEe6a__awYeGrfA",
+      "name" : "Titanic_Header"
+    } ]
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "itemId" : "_SnIN4JAMEe6a__awYeGrfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_k-qtQJAJEe6a__awYeGrfA",
+    "parameterList" : [ {
+      "id" : "_k_KcgZAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_File"
+    }, {
+      "id" : "_k_KcgpAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_Encoding"
+    }, {
+      "id" : "_k_Kcg5AJEe6a__awYeGrfA",
+      "name" : "BlackPanther_RowSeparator"
+    }, {
+      "id" : "_k_KchJAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_FieldSeparator"
+    }, {
+      "id" : "_k_KchZAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_Header"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_72Tu0I_GEe62yM1cY-rR4Q",
+    "parameterList" : [ {
+      "id" : "_72waxY_GEe62yM1cY-rR4Q",
+      "name" : "imdb_Port"
+    }, {
+      "id" : "_72waw4_GEe62yM1cY-rR4Q",
+      "name" : "imdb_Database"
+    }, {
+      "id" : "_72waxI_GEe62yM1cY-rR4Q",
+      "name" : "imdb_Password"
+    }, {
+      "id" : "_72wawo_GEe62yM1cY-rR4Q",
+      "name" : "imdb_Login"
+    }, {
+      "id" : "_72wawY_GEe62yM1cY-rR4Q",
+      "name" : "imdb_Server"
+    }, {
+      "id" : "_72waxo_GEe62yM1cY-rR4Q",
+      "name" : "imdb_AdditionalParams"
+    } ]
+  } ]
+}

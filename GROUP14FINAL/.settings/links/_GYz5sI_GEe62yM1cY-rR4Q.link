@@ -1,0 +1,26 @@
+{
+  "itemId" : "_GYz5sI_GEe62yM1cY-rR4Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_2G2RoI_GEe62yM1cY-rR4Q",
+    "parameterList" : [ {
+      "id" : "_2HS9kY_GEe62yM1cY-rR4Q",
+      "name" : "imdb_src_Server"
+    }, {
+      "id" : "_2HS9ko_GEe62yM1cY-rR4Q",
+      "name" : "imdb_src_Login"
+    }, {
+      "id" : "_2HS9k4_GEe62yM1cY-rR4Q",
+      "name" : "imdb_src_Database"
+    }, {
+      "id" : "_2HS9lI_GEe62yM1cY-rR4Q",
+      "name" : "imdb_src_Password"
+    }, {
+      "id" : "_2HS9lY_GEe62yM1cY-rR4Q",
+      "name" : "imdb_src_Port"
+    }, {
+      "id" : "_2HS9lo_GEe62yM1cY-rR4Q",
+      "name" : "imdb_src_AdditionalParams"
+    } ]
+  } ]
+}

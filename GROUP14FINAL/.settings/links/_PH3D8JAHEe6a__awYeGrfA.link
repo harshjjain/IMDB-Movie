@@ -1,0 +1,23 @@
+{
+  "itemId" : "_PH3D8JAHEe6a__awYeGrfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_k-qtQJAJEe6a__awYeGrfA",
+    "parameterList" : [ {
+      "id" : "_k_KcgZAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_File"
+    }, {
+      "id" : "_k_KcgpAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_Encoding"
+    }, {
+      "id" : "_k_Kcg5AJEe6a__awYeGrfA",
+      "name" : "BlackPanther_RowSeparator"
+    }, {
+      "id" : "_k_KchJAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_FieldSeparator"
+    }, {
+      "id" : "_k_KchZAJEe6a__awYeGrfA",
+      "name" : "BlackPanther_Header"
+    } ]
+  } ]
+}

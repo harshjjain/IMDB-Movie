@@ -1,0 +1,23 @@
+{
+  "itemId" : "_ZSIfkJAHEe6a__awYeGrfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_nOyVwJAJEe6a__awYeGrfA",
+    "parameterList" : [ {
+      "id" : "_nPaA0ZAJEe6a__awYeGrfA",
+      "name" : "Spiderman_File"
+    }, {
+      "id" : "_nPaA0pAJEe6a__awYeGrfA",
+      "name" : "Spiderman_Encoding"
+    }, {
+      "id" : "_nPaA05AJEe6a__awYeGrfA",
+      "name" : "Spiderman_RowSeparator"
+    }, {
+      "id" : "_nPaA1JAJEe6a__awYeGrfA",
+      "name" : "Spiderman_FieldSeparator"
+    }, {
+      "id" : "_nPaA1ZAJEe6a__awYeGrfA",
+      "name" : "Spiderman_Header"
+    } ]
+  } ]
+}
