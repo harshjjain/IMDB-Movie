@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select imdb_name_basics_stg.* 
+from imdb_name_basics_stg</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">083cc894-ad3a-46fa-bceb-067ec7747916</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:dbconnection — dbconn
+Query=select imdb_name_basics_stg....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="nconst" size="10" source="File: select imdb_name_basics_stg.* &#xA;from imdb_name_basics_stg" type="V_String" />
+            <Field name="primaryName" size="255" source="File: select imdb_name_basics_stg.* &#xA;from imdb_name_basics_stg" type="V_String" />
+            <Field name="birthYear" size="4" source="File: select imdb_name_basics_stg.* &#xA;from imdb_name_basics_stg" type="V_String" />
+            <Field name="deathYear" size="4" source="File: select imdb_name_basics_stg.* &#xA;from imdb_name_basics_stg" type="V_String" />
+            <Field name="primaryProfession" size="255" source="File: select imdb_name_basics_stg.* &#xA;from imdb_name_basics_stg" type="V_String" />
+            <Field name="knownForTitles" size="1024" source="File: select imdb_name_basics_stg.* &#xA;from imdb_name_basics_stg" type="V_String" />
+            <Field name="DI_Create_DT" source="File: select imdb_name_basics_stg.* &#xA;from imdb_name_basics_stg" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jhars\AppData\Local\Temp\Engine_12428_00dea0d65730a84590b0ab405f2e86d6_\Engine_12428_b6805f2781b8c34bbdad8bfa2e237a7d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select imdb_title_akas_stg.* 
+from imdb_title_akas_stg</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">083cc894-ad3a-46fa-bceb-067ec7747916</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:dbconnection — dbconn
+Query=select imdb_title_akas_stg.*...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="titleId" size="10" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="V_String" />
+            <Field name="ordering" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="Int32" />
+            <Field name="title" size="1024" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="V_String" />
+            <Field name="region" size="255" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="V_String" />
+            <Field name="language" size="255" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="V_String" />
+            <Field name="types" size="255" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="V_String" />
+            <Field name="attributes" size="1024" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="V_String" />
+            <Field name="isOriginalTitle" size="255" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="V_String" />
+            <Field name="DI_Create_DT" source="File: select imdb_title_akas_stg.* &#xA;from imdb_title_akas_stg" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jhars\AppData\Local\Temp\Engine_12428_00dea0d65730a84590b0ab405f2e86d6_\Engine_12428_e1267c682cf11d478380e5c5bb340639~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select imdb_title_basics_stg.* 
+from imdb_title_basics_stg</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">083cc894-ad3a-46fa-bceb-067ec7747916</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:dbconnection — dbconn
+Query=select imdb_title_basics_stg...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="10" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="titleType" size="255" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="primaryTitle" size="1024" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="originalTitle" size="1024" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="isAdult" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="Int16" />
+            <Field name="startYear" size="4" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="endYear" size="4" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="runtimeMinutes" size="10" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="genres" size="255" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="V_String" />
+            <Field name="DI_Create_DT" source="File: select imdb_title_basics_stg.* &#xA;from imdb_title_basics_stg" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jhars\AppData\Local\Temp\Engine_12428_00dea0d65730a84590b0ab405f2e86d6_\Engine_12428_c98ab0e929b84e448374316f871b5638~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="366" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select imdb_title_crew_stg.* 
+from imdb_title_crew_stg</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">083cc894-ad3a-46fa-bceb-067ec7747916</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:dbconnection — dbconn
+Query=select imdb_title_crew_stg.*...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="10" source="File: select imdb_title_crew_stg.* &#xA;from imdb_title_crew_stg" type="V_String" />
+            <Field name="directors" size="4000" source="File: select imdb_title_crew_stg.* &#xA;from imdb_title_crew_stg" type="V_String" />
+            <Field name="writers" size="4000" source="File: select imdb_title_crew_stg.* &#xA;from imdb_title_crew_stg" type="V_String" />
+            <Field name="DI_Create_DT" source="File: select imdb_title_crew_stg.* &#xA;from imdb_title_crew_stg" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jhars\AppData\Local\Temp\Engine_12428_00dea0d65730a84590b0ab405f2e86d6_\Engine_12428_72a75bf797474a4d9443154144f49f6e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="654" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select imdb_title_principals.* 
+from imdb_title_principals</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">083cc894-ad3a-46fa-bceb-067ec7747916</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:dbconnection — dbconn
+Query=select imdb_title_principals...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="10" source="File: select imdb_title_principals.* &#xA;from imdb_title_principals" type="V_String" />
+            <Field name="ordering" source="File: select imdb_title_principals.* &#xA;from imdb_title_principals" type="Int32" />
+            <Field name="nconst" size="10" source="File: select imdb_title_principals.* &#xA;from imdb_title_principals" type="V_String" />
+            <Field name="category" size="255" source="File: select imdb_title_principals.* &#xA;from imdb_title_principals" type="V_String" />
+            <Field name="job" size="1024" source="File: select imdb_title_principals.* &#xA;from imdb_title_principals" type="V_String" />
+            <Field name="characters" size="1024" source="File: select imdb_title_principals.* &#xA;from imdb_title_principals" type="V_String" />
+            <Field name="DI_Create_DT" source="File: select imdb_title_principals.* &#xA;from imdb_title_principals" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jhars\AppData\Local\Temp\Engine_12428_00dea0d65730a84590b0ab405f2e86d6_\Engine_12428_d85b7cfbd0ee044fa31f62ddf148485c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="654" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select imdb_title_ratings_stg.* 
+from imdb_title_ratings_stg</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">083cc894-ad3a-46fa-bceb-067ec7747916</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:dbconnection — dbconn
+Query=select imdb_title_ratings_st...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="10" source="File: select imdb_title_ratings_stg.* &#xA;from imdb_title_ratings_stg" type="V_String" />
+            <Field name="averageRating" source="File: select imdb_title_ratings_stg.* &#xA;from imdb_title_ratings_stg" type="Double" />
+            <Field name="numVotes" source="File: select imdb_title_ratings_stg.* &#xA;from imdb_title_ratings_stg" type="Int32" />
+            <Field name="DI_Create_DT" source="File: select imdb_title_ratings_stg.* &#xA;from imdb_title_ratings_stg" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jhars\AppData\Local\Temp\Engine_12428_00dea0d65730a84590b0ab405f2e86d6_\Engine_12428_2362103232aa7741b2097a665f54fc8c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="882" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select movie_numbers_stg.* 
+from movie_numbers_stg</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">083cc894-ad3a-46fa-bceb-067ec7747916</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:dbconnection — dbconn
+Query=select movie_numbers_stg.*...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="12" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="title" size="50" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="Date" size="12" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="Rank" size="2" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="Gross" size="12" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="_YD" size="4" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="_LW" size="4" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="Theaters" size="5" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="Per_Theater" size="10" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="Total_Gross" size="12" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+            <Field name="Days" size="6" source="File: select movie_numbers_stg.* &#xA;from movie_numbers_stg" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jhars\AppData\Local\Temp\Engine_12428_00dea0d65730a84590b0ab405f2e86d6_\Engine_12428_fa01e8c3fddc2143a16f6d70e9d05190~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>imdb</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c6269f65-f33a-4548-930f-a11705435c41" />
+      <Telemetry>
+        <PreviousWorkflowId value="2b135715-4ff9-4f24-9f1a-5226921b73bf" />
+        <OriginWorkflowId value="2b135715-4ff9-4f24-9f1a-5226921b73bf" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
